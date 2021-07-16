@@ -9,9 +9,9 @@ const requestListener = (request, response) => {
 
     if(method === 'GET') {
         response.end('<h1>Hello GET</h1>');
-    }
+    }x
     
-    if(methd === 'POST') {
+    if(method === 'POST') {
         response.end('<h1>Hai POST</h1>');
     }
 
